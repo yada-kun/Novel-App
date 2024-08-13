@@ -1,9 +1,13 @@
-
+import Layout from "@/layout";
 
 const Signin = () => {
-  return (
-    <div>Hello</div>
-  )
-}
+    return (
+        <div>
+            <Layout>
+                <h1>Helloooon</h1>
+            </Layout>
+        </div>
+    );
+};
 
-export default Signin
+export default Signin;
